@@ -1,9 +1,14 @@
 {
   "name": "iSafari",
-  "description": "hello world test app",
+  "description": "iSafari is a destination management system built for the East African region with a view on making it easier for the eco-system to distribute their inventory regionally and internationlly.",
   "version": "0.0.1",
   "private": true,
+  "author": "Dhana House <info@dhana.co.ke>",
+  "contributors": [ { "name": "David Karigithu", "email": "dkarigithu@isafari.co.ke" }, { "name": "Sospeter Muriu", "email": "smuriu@isafari.co.ke" } ],
+  "scripts": { "start": "node app" },
   "dependencies": {
-    "express": "3.0.0"
+    "express": "3.0.0rc5",
+    "jade": "*",
+    "stylus": "*"
   }
 }
