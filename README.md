@@ -1,0 +1,1 @@
+iSafari is a destination management system built for the East African region with a view on making it easier for the eco-system to distribute their inventory regionally and internationlly.
