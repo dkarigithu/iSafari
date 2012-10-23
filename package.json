@@ -1,14 +1,30 @@
 {
   "name": "iSafari",
-  "description": "iSafari is a destination management system built for the East African region with a view on making it easier for the eco-system to distribute their inventory regionally and internationlly.",
+  "description": "iSafari is a destination management system built for the East African region with a view on making it easier for the eco-system to distribute their inventory regionally and internationally.",
   "version": "0.0.1",
   "private": true,
-  "author": "Dhana House <info@dhana.co.ke>",
   "contributors": [ { "name": "David Karigithu", "email": "dkarigithu@isafari.co.ke" }, { "name": "Sospeter Muriu", "email": "smuriu@isafari.co.ke" } ],
-  "scripts": { "start": "node app" },
   "dependencies": {
-    "express": "3.0.0rc5",
-    "jade": "*",
-    "stylus": "*"
+    "express": "2.5.11",
+    "jade": ">= 0.0.1",
+    "hbs": "*",
+    "mongoose": "*",
+    "express-load": "*",
+    "underscore": "*",
+    "backbone": "*",
+    "form": "*",
+    "flashify": "*",
+    "socket.io": "*",
+    "passport": "*",
+    "passport-facebook": "*",
+    "passport-twitter": "*",
+    "passport-google-oauth": "*",
+    "connect-gzip": "*",
+    "connect-powered-by": "*",
+    "connect-assetmanager": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
